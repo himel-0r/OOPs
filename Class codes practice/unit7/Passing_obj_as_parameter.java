@@ -21,7 +21,7 @@ class Test {
 
     // return true if o is equal to the invoking object
     boolean equalTo(Test o) {
-        if (o.a == a && o.b == b)
+        if (o.a == this.a && o.b == this.b)
             return true;
         else
             return false;
