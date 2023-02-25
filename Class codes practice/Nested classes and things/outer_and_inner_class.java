@@ -20,4 +20,10 @@ class Outer {
             System.out.println("display: outer_x = " + outer_x);
         }
     }
+
+    /*
+     *  An inner class is a non-static nested class. 
+     * It has access to all of the variables and methods of its outer class 
+     * and may refer to them directly in the same way that other non-static members of the outer class do.
+     */
 }
