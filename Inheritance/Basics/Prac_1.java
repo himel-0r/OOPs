@@ -19,7 +19,7 @@ class Car {
     String company;
 
     void print () {
-        System.out.println("company name: " + company);
+        System.out.println("Company name: " + company);
     }
 }
 
