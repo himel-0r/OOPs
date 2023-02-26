@@ -24,6 +24,7 @@ class A {
     void setij(int x, int y) {
         i = x;
         j = y;
+        System.out.println(j); // eita disi, jate error message na dekhay. that's it
     }
 }
 
