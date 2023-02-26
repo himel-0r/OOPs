@@ -11,8 +11,7 @@ public class Basic_1 {
         superOb.showij();
         System.out.println();
         /*
-         * The subclass has access to all public members of
-         * its superclass.
+         * The subclass has access to all public members of its superclass.
          */
         subOb.i = 7;
         subOb.j = 8;
