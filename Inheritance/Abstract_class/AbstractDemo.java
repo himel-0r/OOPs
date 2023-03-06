@@ -7,6 +7,9 @@ public class AbstractDemo {
         b.callmetoo();
         // A aoj = b;
         // aoj.callmetoo();
+
+        Object abc = b;
+        System.out.println(abc.getClass());
     }
 }
 
