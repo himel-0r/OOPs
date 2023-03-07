@@ -58,9 +58,3 @@ class Student {
         System.out.println("cllgName : " + cllgName);
     }
 }
-
-// ajke onek jinis shikhtesi
-// vogoban, eisob jodi kalke mone na thake tahole ami shesh.
-// ajker porikkha voyaboho hoise, kalke jeno valo hoy
-// indeed, next gula jeno valo hoy.
-// please.
