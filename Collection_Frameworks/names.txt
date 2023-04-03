@@ -1,0 +1,24 @@
+interface java.lang.Iterable
+    interface Collections
+        interface List
+            class ArrayList
+            class LinkedList
+            class Vector
+                class Stack
+        interface Set 
+            class HashSet
+                class LinkedHashSet
+            interface SortedSet
+                interface NavigableSet
+                    class TreeSet
+            class EnumSet
+        interface Queue
+            class PriorityQueue
+            interface Deque
+                class LinkedList
+                class ArrayDeque
+    interface Map
+        class HashMap
+        interface SortedMap
+            interface NavigableMap
+                class TreeMap
