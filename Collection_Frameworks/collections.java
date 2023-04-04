@@ -4,16 +4,9 @@ import java.util.Collection;
 import java.util.Vector;
 
 public class collections {
-    Vector<Integer> v = new Vector<Integer>();
+    public static void main(String[] args) {
+        Vector<Integer> v = new Vector<Integer>();
 
-    for (int i=1; i<=5; i++) {
-        v.add(i);
+        v.
     }
-
-    v.add(10);
-
-    
-
-    
-
 }
