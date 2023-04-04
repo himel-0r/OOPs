@@ -7,6 +7,6 @@ public class collections {
     public static void main(String[] args) {
         Vector<Integer> v = new Vector<Integer>();
 
-        v.
+        
     }
 }
