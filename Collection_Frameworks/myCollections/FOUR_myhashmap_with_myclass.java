@@ -20,6 +20,7 @@ public class FOUR_myhashmap_with_myclass {
         ArrayList<tree> trees = new ArrayList<tree>();
         trees.add(new tree("Mango", 3.4));
         trees.add(new tree("Jackfruit", 1.4));
+
         person_owns_multipleTrees.put("Abdullah", trees);
 
         trees.clear();
@@ -28,7 +29,15 @@ public class FOUR_myhashmap_with_myclass {
         trees.add(new tree("Grape", 0.1));
         person_owns_multipleTrees.put("Tamanna", trees);
 
-        System.out.println(person_owns_multipleTrees);
+        for (var i : person_owns_multipleTrees.entrySet())
+        {
+            System.out.println(i.getKey());
+
+            for (var j : i.getValue())
+                System.out.println(j.getName());
+        }
+
+        // System.out.println(person_owns_multipleTrees);
     }
 }
 
